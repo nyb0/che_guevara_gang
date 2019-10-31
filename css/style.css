@@ -1,0 +1,22 @@
+﻿body{
+	background-color:#d8d8d8;
+}
+#content>.signup>.title{
+	width: 390px;
+}
+#content>.signup>.title>img {
+	width: 75px;
+	height: 75px;
+	display: inline-flex;
+}
+#content>.signup>.title>h4 {
+	display: inline-flex;
+}
+#content>.opposition-list>table th,
+#content>.opposition-list>table td{
+	border: 2px solid black;
+	text-align: center;
+}
+#content>.opposition-list>table th[scope="col"]{
+	background-color: blanchedalmond;
+}
