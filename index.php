@@ -7,7 +7,6 @@ $users = $db->query("SELECT * FROM `users` JOIN `countries` ON users.id_country 
 $countries = $db->query("SELECT * FROM `countries`");
 
 include 'app/view.php';
-//var_dump($users);
 $data = $_POST;
 include 'app/join.php';
 
